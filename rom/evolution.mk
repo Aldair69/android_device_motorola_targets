@@ -20,7 +20,7 @@ $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 # EvolutionX Device Maintainers
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    DEVICE_MAINTAINERS=" "
+    DEVICE_MAINTAINERS="AldairSoraki"
 
 # EvolutionX Flags
 TARGET_BOOT_ANIMATION_RES := 1080
