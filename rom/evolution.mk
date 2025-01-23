@@ -16,7 +16,8 @@
 include device/motorola/targets/include/common.mk
 
 # Inherit some common Evolution X stuff.
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+#$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # EvolutionX Device Maintainers
 PRODUCT_BUILD_PROP_OVERRIDES += \
