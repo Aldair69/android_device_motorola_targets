@@ -38,7 +38,7 @@ TARGET_DEFAULT_PIXEL_LAUNCHER := true
 # Lawnchair Prebuilt
 TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
 # disable/enable blur support, default is false
-TARGET_ENABLE_BLUR := true
+TARGET_ENABLE_BLUR := false
 # rising Maintainer
 RISING_MAINTAINER=AldairSoraki
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
