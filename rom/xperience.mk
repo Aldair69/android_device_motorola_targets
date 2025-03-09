@@ -27,9 +27,11 @@ PLATFORM_PROVIDES_LIBHIDL := true
 # Required Scripts
 $(warning This ROM requires replace_camera_sepolicy.sh to be ran...)
 
+# Xperience Flags
 XPERIENCE_MAINTAINER := AldairSoraki
 #XPERIENCE_CHIPSET := "Snapdragon® 665 Mobile Platform"
 XPERIENCE_BATTERY := "5000mAh (Li-Poly)"
 XPERIENCE_DISPLAY := "720*1560 (65Hz)"
+TARGET_ESSENTIAL_GAPPS := true
 
 PRODUCT_NAME := xperience_$(DEVICE)
